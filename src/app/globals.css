@@ -1,0 +1,18 @@
+@import "tailwindcss";
+
+ /** g color set*/
+@theme {
+  --color-accent: #ccff00;
+  --color-card: #12151c;
+  --color-line: #232834;
+  --font-display: var(--font-oswald), sans-serif;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  background: #0b0d12;
+  color: white;
+}
